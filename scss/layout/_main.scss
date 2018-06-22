@@ -1,0 +1,62 @@
+.section-main {
+
+  background:  rgb(189, 233, 255);
+    // background: url('../img/goldengate1.png') top no-repeat;
+
+  height: 100vh;
+
+  .carousel {
+      position:absolute;
+      padding-bottom:0;
+    }
+
+  .brand{
+      position: relative;
+      width:150px;
+      margin: auto;
+  }
+  img.logo {
+    margin: auto;
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    top: 0; left: 0; bottom: 0; right: 0;
+    // z-index:999;
+
+  }
+}
+
+h1.content {
+
+  margin-top: 14em;
+  text-align: center;
+  // margin: 0 auto;
+  color: black;
+  position: relative;
+  z-index:9999;
+}
+
+h2, h4 {
+  color: #000;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.address {
+  color: rgb(0, 108, 186);
+}
+
+.eyeSmart {
+  margin: 40px auto;
+
+  img {
+    height: 300px;
+    opacity: 1;
+    transition: .25s;
+  }
+
+  img:hover {
+    opacity: .75;
+  }
+}

@@ -1,0 +1,31 @@
+.navbar{
+  width: 95%;
+  margin:auto;
+  // @include add-border(1px, #e7e7e7, 'right-left');
+  min-height: 60px;
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 30px;
+  position: sticky;
+
+}
+
+a {
+  color:#000;
+  font-size:30px;
+  letter-spacing:-0.5px;
+  padding-bottom:24px;
+  padding-top:20px;
+}
+
+.nav-item.active {
+  background: $primary-color;
+  border-radius: 15px;
+  a{
+    color:#fff;
+  }
+}
+
+.navbar-brand {
+  font-size:30px;
+  color: #000 !important;
+}

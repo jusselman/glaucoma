@@ -1,0 +1,43 @@
+.carousel-fade {
+	.carousel-item {
+		display: block;
+		position: absolute;
+		opacity: 0;
+		transition: opacity .5s ease-in-out;
+
+		&.active {
+			opacity: 1;
+		}
+	}
+}
+
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+  width: 75%;
+  height: 75%;
+}
+
+.carousel {
+  // position: absolute;
+  top: 10%;
+  left: 30%;
+	position: absolute;
+
+	img {
+		height: 600px !important;
+		width: 900px !important;
+		position: absolute;
+	}
+}
+
+.carousel-item:nth-child(1) {
+	 background: url('../img/goldengate.jpg;')
+}
+.carousel-item:nth-child(2) {
+	background: url('../img/goldengate1.jpg;')
+}
+.carousel-item:nth-child(3) {
+	background: url('../img/goldengate3.jpg;')
+}

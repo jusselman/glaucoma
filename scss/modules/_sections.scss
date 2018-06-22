@@ -1,0 +1,129 @@
+.section-locations {
+  margin: 0 auto;
+
+  img {
+    margin: 0 auto;
+    width: 700px;
+    height: 450px;
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+  }
+
+  h2, h3 {
+    text-align: center;
+  }
+}
+
+
+
+
+.slide-fade-enter {
+  transform: translateY(-40px);
+  opacity: 0;
+}
+
+.slide-fade-leave-to {
+  transform: translateY(40px);
+  opacity: 0;
+}
+
+// FAQ SECTION FAQ SECTION FAQ SECTION //
+
+.section-faq {
+
+  img {
+    height: 400px;
+    width: 600px;
+    margin: 40px auto;
+    display: block;
+  }
+div#status{
+  position: fixed;
+  font-size: 20px;
+}
+
+div#wrap{
+  width: 800px; margin: 0 auto
+}
+
+div.newData{
+    height: 100px;
+    background: #09F;
+    margin: 10px 0;
+}
+}
+
+
+// DOCTOR DOCTOR DOCTOR DOCTOR DOCTORS //
+.sections-doctors{
+
+    h3 {
+      text-align: center;
+       }
+
+    .doctorPortal {
+    width: 850px;
+    height: 500px;
+    margin: 3em auto;
+    display: block;
+    border-radius: 1em;
+
+  }
+
+
+    img {
+      width: 250px;
+      height: 250px;
+      border-radius: 5em;
+      margin: 0 auto;
+      display: block;
+
+    }
+
+}
+
+// OUR STAFF OUR STAFF OUR STAFF OUR STAFF //
+
+.section-staff {
+  text-align: center;
+
+  img {
+    width: 900px;
+    height: 550px;
+    margin: 3em auto;
+    display: block;
+  }
+
+
+}
+
+.section-media {
+  text-align: center;
+
+  img {
+    width: 800px;
+    height: 500px;
+    margin: 3em auto;
+    display: block;
+  }
+
+  .media-link {
+    color: rgb(0,107,182);
+  }
+}
+
+
+
+
+
+
+
+/* how long transition will take */
+.slide-fade-enter-active {
+  transition: 1s ease;
+}
+.slide-fade-leave-active {
+  transition: 1s ease;
+}

@@ -1,0 +1,294 @@
+/* Font Colors */
+/* Background Colors */
+/* HOVER EFFECTS */
+/* line 1, C:/Users/Josue/Desktop/glaucoma/scss/base/_base.scss */
+body {
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+  line-height: 1.7em;
+  color: #000;
+  overflow-x: hidden;
+  background: #bde9ff;
+}
+
+/* line 1, C:/Users/Josue/Desktop/glaucoma/scss/layout/_header.scss */
+.navbar {
+  width: 95%;
+  margin: auto;
+  min-height: 60px;
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 30px;
+  position: sticky;
+}
+
+/* line 12, C:/Users/Josue/Desktop/glaucoma/scss/layout/_header.scss */
+a {
+  color: #000;
+  font-size: 30px;
+  letter-spacing: -0.5px;
+  padding-bottom: 24px;
+  padding-top: 20px;
+}
+
+/* line 20, C:/Users/Josue/Desktop/glaucoma/scss/layout/_header.scss */
+.nav-item.active {
+  background: #bde9ff;
+  border-radius: 15px;
+}
+
+/* line 23, C:/Users/Josue/Desktop/glaucoma/scss/layout/_header.scss */
+.nav-item.active a {
+  color: #fff;
+}
+
+/* line 28, C:/Users/Josue/Desktop/glaucoma/scss/layout/_header.scss */
+.navbar-brand {
+  font-size: 30px;
+  color: #000 !important;
+}
+
+/* line 1, C:/Users/Josue/Desktop/glaucoma/scss/layout/_main.scss */
+.section-main {
+  background: #bde9ff;
+  height: 100vh;
+}
+
+/* line 8, C:/Users/Josue/Desktop/glaucoma/scss/layout/_main.scss */
+.section-main .carousel {
+  position: absolute;
+  padding-bottom: 0;
+}
+
+/* line 13, C:/Users/Josue/Desktop/glaucoma/scss/layout/_main.scss */
+.section-main .brand {
+  position: relative;
+  width: 150px;
+  margin: auto;
+}
+
+/* line 18, C:/Users/Josue/Desktop/glaucoma/scss/layout/_main.scss */
+.section-main img.logo {
+  margin: auto;
+  position: absolute;
+  height: 100px;
+  width: 150px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 29, C:/Users/Josue/Desktop/glaucoma/scss/layout/_main.scss */
+h1.content {
+  margin-top: 14em;
+  text-align: center;
+  color: black;
+  position: relative;
+  z-index: 9999;
+}
+
+/* line 39, C:/Users/Josue/Desktop/glaucoma/scss/layout/_main.scss */
+h2, h4 {
+  color: #000;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 46, C:/Users/Josue/Desktop/glaucoma/scss/layout/_main.scss */
+.address {
+  color: #006cba;
+}
+
+/* line 50, C:/Users/Josue/Desktop/glaucoma/scss/layout/_main.scss */
+.eyeSmart {
+  margin: 40px auto;
+}
+
+/* line 53, C:/Users/Josue/Desktop/glaucoma/scss/layout/_main.scss */
+.eyeSmart img {
+  height: 300px;
+  opacity: 1;
+  transition: .25s;
+}
+
+/* line 59, C:/Users/Josue/Desktop/glaucoma/scss/layout/_main.scss */
+.eyeSmart img:hover {
+  opacity: .75;
+}
+
+/* line 2, C:/Users/Josue/Desktop/glaucoma/scss/modules/_components.scss */
+.carousel-fade .carousel-item {
+  display: block;
+  position: absolute;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+/* line 8, C:/Users/Josue/Desktop/glaucoma/scss/modules/_components.scss */
+.carousel-fade .carousel-item.active {
+  opacity: 1;
+}
+
+/* line 15, C:/Users/Josue/Desktop/glaucoma/scss/modules/_components.scss */
+.carousel,
+.carousel-inner,
+.carousel-item {
+  width: 75%;
+  height: 75%;
+}
+
+/* line 22, C:/Users/Josue/Desktop/glaucoma/scss/modules/_components.scss */
+.carousel {
+  top: 10%;
+  left: 30%;
+  position: absolute;
+}
+
+/* line 28, C:/Users/Josue/Desktop/glaucoma/scss/modules/_components.scss */
+.carousel img {
+  height: 600px !important;
+  width: 900px !important;
+  position: absolute;
+}
+
+/* line 35, C:/Users/Josue/Desktop/glaucoma/scss/modules/_components.scss */
+.carousel-item:nth-child(1) {
+  background: url("../img/goldengate.jpg;");
+}
+
+/* line 38, C:/Users/Josue/Desktop/glaucoma/scss/modules/_components.scss */
+.carousel-item:nth-child(2) {
+  background: url("../img/goldengate1.jpg;");
+}
+
+/* line 41, C:/Users/Josue/Desktop/glaucoma/scss/modules/_components.scss */
+.carousel-item:nth-child(3) {
+  background: url("../img/goldengate3.jpg;");
+}
+
+/* line 1, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.section-locations {
+  margin: 0 auto;
+}
+
+/* line 4, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.section-locations img {
+  margin: 0 auto;
+  width: 700px;
+  height: 450px;
+  display: block;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+/* line 14, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.section-locations h2, .section-locations h3 {
+  text-align: center;
+}
+
+/* line 22, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.slide-fade-enter {
+  transform: translateY(-40px);
+  opacity: 0;
+}
+
+/* line 27, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.slide-fade-leave-to {
+  transform: translateY(40px);
+  opacity: 0;
+}
+
+/* line 36, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.section-faq img {
+  height: 400px;
+  width: 600px;
+  margin: 40px auto;
+  display: block;
+}
+
+/* line 42, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.section-faq div#status {
+  position: fixed;
+  font-size: 20px;
+}
+
+/* line 47, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.section-faq div#wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* line 51, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.section-faq div.newData {
+  height: 100px;
+  background: #09F;
+  margin: 10px 0;
+}
+
+/* line 62, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.sections-doctors h3 {
+  text-align: center;
+}
+
+/* line 66, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.sections-doctors .doctorPortal {
+  width: 850px;
+  height: 500px;
+  margin: 3em auto;
+  display: block;
+  border-radius: 1em;
+}
+
+/* line 76, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.sections-doctors img {
+  width: 250px;
+  height: 250px;
+  border-radius: 5em;
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 89, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.section-staff {
+  text-align: center;
+}
+
+/* line 92, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.section-staff img {
+  width: 900px;
+  height: 550px;
+  margin: 3em auto;
+  display: block;
+}
+
+/* line 102, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.section-media {
+  text-align: center;
+}
+
+/* line 105, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.section-media img {
+  width: 800px;
+  height: 500px;
+  margin: 3em auto;
+  display: block;
+}
+
+/* line 112, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.section-media .media-link {
+  color: #006bb6;
+}
+
+/* how long transition will take */
+/* line 124, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.slide-fade-enter-active {
+  transition: 1s ease;
+}
+
+/* line 127, C:/Users/Josue/Desktop/glaucoma/scss/modules/_sections.scss */
+.slide-fade-leave-active {
+  transition: 1s ease;
+}
+
+/*# sourceMappingURL=../css/main.map */
